@@ -1,2 +1,1 @@
-# vasilisavinik
-Vasilisa Vinik
+https://ogreogles.github.io/vasilisavinik/
