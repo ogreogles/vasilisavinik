@@ -17,21 +17,9 @@
     padding: 45px 15px;
   }
 
-  /* section:last-child {
-    padding: 45px 15px 50px;
-  } */
-
-  /* .wrapper {
-    width: 320px;
-  } */
-
   .header__container {
     padding: 32px 15px;
   }
-
-  /* .header__logo {
-    height: 16px;
-  } */
 
   .header__right {
     display: block;
@@ -128,13 +116,7 @@
   }
 
   .hero {
-    min-height: 200px;
-    /* height: 353px; */
-    /* background: radial-gradient(
-      49% 49% at 67.78% 84.57%,
-      #555681 0%,
-      #2e2b44 100%
-    ); */
+    min-height: 200px;    
   }
 
   .hero__container {
@@ -150,10 +132,7 @@
     width: 290px;
   }
 
-  .hero__descr {
-    /* margin-bottom: 55px;
-    width: 290px;
-    height: 73px; */
+  .hero__descr {    
     font-size: var(--body-font-size);
     line-height: 130%;
   }
@@ -171,8 +150,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: center;
-    /* height: 1406px; */
+    align-content: center;    
   }
 
   .examples__item {
@@ -204,18 +182,12 @@
     padding: 75px 33px;
   }
 
-  /* section:last-child {
-    padding-bottom: 80px;
-  } */
-
   .wrapper {
     width: 100vw;
   }
 
   .header__container {
     flex-wrap: wrap;
-    /* justify-content: center;
-    align-content: space-between; */
     padding: 20px 15px;
     height: 133px;
   }
@@ -230,12 +202,6 @@
 
   .hero {
     height: fit-content;
-    /* height: 567px; */
-    /* background: radial-gradient(
-      49% 49% at 67.78% 84.57%,
-      #555681 0%,
-      #2e2b44 100%
-    ); */
   }
 
   .hero__container {
@@ -284,22 +250,10 @@
     padding: 80px 39px;
   }
 
-  /* .wrapper {
-    width: 768px;
-  } */
-
   .header__container {
     justify-content: space-between;
     padding: 30px 39px 29px;
   }
-
-  /* .hero {
-    background: radial-gradient(
-      44.07% 44.07% at 67.78% 55.93%,
-      #555681 0%,
-      #2e2b44 100%
-    );
-  } */
 
   .hero__container {
     background: url("../img/hero-image-tablet-big.png") no-repeat 399px 117px /
@@ -341,9 +295,6 @@
     max-width: 50%;
   }
 
-  /* .examples__card {
-    padding: 15px 75px;
-  } */
 }
 
 @media (min-width: 2000px) and (max-width: 3840px) {
