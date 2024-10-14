@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru" class="js-focus-visible" data-js-focus-visible>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vasilisa Vinik</title>
+    <style></style>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/adapt.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="header__container">
+          <img class="header__logo" src="img/logo.svg" alt="Логотип" />
+          <nav class="header__right nav">
+            <input class="burger" id="burger__toggle" type="checkbox" />
+            <label class="burger burger__btn" for="burger__toggle">
+              <span class="burger burger__span"></span>
+            </label>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#header">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#hero">Обо мне</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#examples">Примеры работ</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="sertificates.html">Сертификаты</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#footer">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="content">
+        <section class="hero">
+          <h1 class="hero__title">Василиса&nbsp;Виник</h1>
+          <p class="hero__descr">разрабатываю веб-сайты</p>
+          <ul class="social">
+            <li class="social__item">
+              <a
+                href="https://github.com/ogreogles"
+                class="social__link icon github"
+                title="GitHub"
+              >
+                <svg class="social__icon" viewBox="71 71 370 370">
+                  <path
+                    d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                href="https://www.linkedin.com/in/%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D1%81%D0%B0-%D0%B2%D0%B8%D0%BD%D0%B8%D0%BA-a5860910b/"
+                class="social__link icon linkedin"
+                title="LinkedIn"
+              >
+                <svg class="social__icon" viewBox="0 0 512 512">
+                  <path
+                    d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                href="https://codepen.io/ogreogles"
+                class="social__link icon codepen"
+                title="CodePen"
+              >
+                <svg class="social__icon" viewBox="0 0 512 512">
+                  <path
+                    d="M427 201.9c-0.6-4.2-2.9-8-6.4-10.3L264.2 87.3c-4.9-3.3-11.4-3.3-16.3 0L91.4 191.6c-4 2.7-6.5 7.4-6.5 12.2v104.3c0 4.8 2.5 9.6 6.5 12.2l156.4 104.3c4.9 3.3 11.4 3.3 16.3 0L420.6 320.4c4-2.6 6.6-7.4 6.6-12.2V203.9C427.1 203.2 427.1 202.6 427 201.9 427 201.7 427.1 202.6 427 201.9zM270.7 127.1l115.2 76.8 -51.5 34.4 -63.8-42.7V127.1zM241.3 127.1v68.6l-63.8 42.7 -51.5-34.4L241.3 127.1zM114.3 231.4l36.8 24.6 -36.8 24.6V231.4zM241.3 384.9L126.1 308.1l51.5-34.4 63.8 42.6V384.9zM256 290.8l-52-34.8 52-34.8 52 34.8L256 290.8zM270.7 384.9V316.3l63.8-42.6 51.5 34.4L270.7 384.9zM397.7 280.6l-36.8-24.6 36.8-24.6V280.6z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="examples" id="examples">
+          <h2 class="examples__title">Примеры&nbsp;работ</h2>
+          <div class="examples__wrapper collapsible-list closed" id="list1">
+            <ul class="examples__list collapse-list">
+              <li class="examples__item">
+                <article class="examples__card examples__card-1">
+                  <picture class="examples__picture">
+                    <source
+                      srcset="img/sdp-1024.jpg"
+                      media="(min-width: 992px)"
+                    />
+                    <source
+                      srcset="img/sdp-768.jpg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="img/sdp-576.jpg"
+                      media="(min-width: 576px)"
+                    />
+                    <source
+                      srcset="img/sdp-320.jpg"
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="img/sdp.jpg"
+                      alt="Магазин мебели Sit Down Please"
+                    />
+                  </picture>
+                  <div class="examples__content">
+                    <p class="examples__descr">
+                      Четырехстраничный сайт с адаптивной версткой,
+                      ховер-эффектами. Есть форма обратной связи с валидацией и
+                      маской ввода, для двух последних функций использованы
+                      готовые библиотеки.
+                    </p>
+                    <a
+                      class="examples__link"
+                      href="https://ogreogles.github.io/sdp/"
+                      >→ Перейти&nbsp;на&nbsp;сайт</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="examples__item">
+                <article class="examples__card examples__card-2">
+                  <picture class="examples__picture">
+                    <source
+                      srcset="img/euclid-1024.jpg"
+                      media="(min-width: 992px)"
+                    />
+                    <source
+                      srcset="img/euclid-768.jpg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="img/euclid-576.jpg"
+                      media="(min-width: 576px)"
+                    />
+                    <source
+                      srcset="img/euclid-320.jpg"
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="img/euclid-1920.jpg"
+                      alt="Проектные системы «Евклид»"
+                    />
+                  </picture>
+                  <div class="examples__content">
+                    <p class="examples__descr">
+                      Сайт со слайдером, аккордеоном, табами, бургер-меню,
+                      ховер-эффектами, формой обратной связи и кастомным
+                      чекбоксом. Есть строка поиска, всплывающая по нажатию.
+                      Верстка адаптивная.
+                    </p>
+                    <a
+                      class="examples__link"
+                      href="https://ogreogles.github.io/euclid/"
+                      >→ Перейти&nbsp;на&nbsp;сайт</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="examples__item">
+                <article class="examples__card examples__card-3">
+                  <picture class="examples__picture">
+                    <source
+                      srcset="img/highpass-1024.jpg"
+                      media="(min-width: 992px)"
+                    />
+                    <source
+                      srcset="img/highpass-768.jpg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="img/highpass-576.jpg"
+                      media="(min-width: 576px)"
+                    />
+                    <source
+                      srcset="img/highpass-320.jpg"
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="img/highpass-1920.jpg"
+                      alt="Фотостудия «High Pass»"
+                    />
+                  </picture>
+                  <div class="examples__content">
+                    <p class="examples__descr">
+                      Сайт с использованием CSS Grid, адаптивной верстки,
+                      бургер-меню, ховер-эффектов.
+                    </p>
+                    <a
+                      class="examples__link"
+                      href="https://ogreogles.github.io/highpass/"
+                      >→ Перейти&nbsp;на&nbsp;сайт</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="examples__item">
+                <article class="examples__card examples__card-4">
+                  <picture class="examples__picture">
+                    <source
+                      srcset="img/blanchard-1024.jpg"
+                      media="(min-width: 992px)"
+                    />
+                    <source
+                      srcset="img/blanchard-768.jpg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="img/blanchard-576.jpg"
+                      media="(min-width: 576px)"
+                    />
+                    <source
+                      srcset="img/blanchard-320.jpg"
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="img/blanchard-1920.jpg"
+                      alt="Художественная галерея «Blanchard»"
+                    />
+                  </picture>
+                  <div class="examples__content">
+                    <p class="examples__descr">
+                      Сайт с адаптивной версткой, кастомными чекбоксами,
+                      ховер-эффектами. Есть форма обратной связи с валидацией и
+                      маской ввода, для двух последних функций использованы
+                      готовые библиотеки.
+                    </p>
+                    <a
+                      class="examples__link"
+                      href="https://ogreogles.github.io/blanchard/"
+                      >→ Перейти&nbsp;на&nbsp;сайт</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="examples__item" id="showall">
+                <article class="examples__card examples__card-5">
+                  <picture class="examples__picture">
+                    <source
+                      srcset="img/3d-1024.jpg"
+                      media="(min-width: 992px)"
+                    />
+                    <source
+                      srcset="img/3d-768.jpg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="img/3d-576.jpg"
+                      media="(min-width: 576px)"
+                    />
+                    <source
+                      srcset="img/3d-320.jpg"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="img/3d-1920.jpg" alt="Курсы 3D моделирования" />
+                  </picture>
+                  <div class="examples__content">
+                    <p class="examples__descr">
+                      Сайт с использованием библиотеки Bootstrap. Верстка
+                      адаптивная.
+                    </p>
+                    <a
+                      class="examples__link"
+                      href="https://ogreogles.github.io/3d/"
+                      >→ Перейти&nbsp;на&nbsp;сайт</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="examples__item">
+                <article class="examples__card examples__card-6">
+                  <picture class="examples__picture">
+                    <source
+                      srcset="img/lagoona-1024.jpg"
+                      media="(min-width: 992px)"
+                    />
+                    <source
+                      srcset="img/lagoona-768.jpg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="img/lagoona-576.jpg"
+                      media="(min-width: 576px)"
+                    />
+                    <source
+                      srcset="img/lagoona-320.jpg"
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="img/lagoona-1920.jpg"
+                      alt="Туристическая фирма Lagoona"
+                    />
+                  </picture>
+                  <div class="examples__content">
+                    <p class="examples__descr">
+                      Сайт с формой бронирования, ховер-эффектами.
+                    </p>
+                    <a
+                      class="examples__link"
+                      href="https://ogreogles.github.io/lagoona/"
+                      >→ Перейти&nbsp;на&nbsp;сайт</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="examples__item">
+                <article class="examples__card examples__card-7">
+                  <picture class="examples__picture">
+                    <source
+                      srcset="img/htmlemail-1024.jpg"
+                      media="(min-width: 992px)"
+                    />
+                    <source
+                      srcset="img/htmlemail-768.jpg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="img/htmlemail-576.jpg"
+                      media="(min-width: 576px)"
+                    />
+                    <source
+                      srcset="img/htmlemail-320.jpg"
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="img/htmlemail-1920.jpg"
+                      alt="HTML-письмо с адаптивной версткой"
+                    />
+                  </picture>
+
+                  <div class="examples__content">
+                    <p class="examples__descr">
+                      HTML-письмо с адаптивной версткой.
+                    </p>
+                    <a
+                      class="examples__link"
+                      href="https://ogreogles.github.io/htmlemail/"
+                      >→ Перейти&nbsp;на&nbsp;сайт</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="examples__item">
+                <article class="examples__card examples__card-8">
+                  <picture class="examples__picture">
+                    <source
+                      srcset="img/jsanimation-1024.jpg"
+                      media="(min-width: 992px)"
+                    />
+                    <source
+                      srcset="img/jsanimation-768.jpg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="img/jsanimation-576.jpg"
+                      media="(min-width: 576px)"
+                    />
+                    <source
+                      srcset="img/jsanimation-320.jpg"
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="img/jsanimation-1920.jpg"
+                      alt="Сайт с js-анимацией"
+                    />
+                  </picture>
+                  <div class="examples__content">
+                    <p class="examples__descr">
+                      Сайт с js-анимацией, для чего была использована библиотека
+                      GreenSock.
+                    </p>
+                    <a
+                      class="examples__link"
+                      href="https://ogreogles.github.io/jsanimation/"
+                      >→ Перейти&nbsp;на&nbsp;сайт</a
+                    >
+                  </div>
+                </article>
+              </li>
+            </ul>
+            <a class="show-more-link" href="#showall">Показать&nbsp;всё</a>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__contacts">
+          <span class="footer__contacts--caption">Сотрудничество</span>
+          <div class="footer__contacts--icons">
+            <a
+              class="footer__contacts--link footer__contacts--gmail"
+              href="mailto:vasilisa.vinik@gmail.com"
+              aria-label="Написать по e-mail"
+              target="_blank"
+            >
+              <img
+                class="footer__contacts--img"
+                src="img/gmail.svg"
+                alt="E-mail"
+              />
+            </a>
+            <a
+              class="footer__contacts--link footer__contacts--telegram"
+              href="https://t.me/ogreogles"
+              aria-label="Связаться в Telegram"
+              target="_blank"
+            >
+              <img
+                class="footer__contacts--img"
+                src="img/telegram-icon.svg"
+                alt="Telegram"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script defer src="js/index.js"></script>
+  </body>
+</html>
