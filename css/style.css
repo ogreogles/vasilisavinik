@@ -379,6 +379,12 @@ ul {
   display: list-item;
 } */
 
+.collapsible-list.open {
+.examples__item:not(.default) {
+  display: list-item;
+}
+}
+
 .examples__card {
   display: flex;
   flex-direction: column;
