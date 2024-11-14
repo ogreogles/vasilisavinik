@@ -365,7 +365,7 @@ ul {
 }
 
 .show-more-link:focus:not(:hover):not(:active) {
-  border-color: var(--color-grape);
+/*   border-color: var(--color-grape); */
   background-color: var(--color-bright-lavender);
 }
 
