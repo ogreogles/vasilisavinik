@@ -375,15 +375,15 @@ ul {
   background-color: var(--color-grape);
 }
 
-/* .collapsible-list.open > .examples__list > .examples__item:not(.default) {
+.collapsible-list.open > .examples__list > .examples__item:not(.default) {
   display: list-item;
-} */
+}
 
-.collapsible-list.open {
+/* .collapsible-list.open {
 .examples__item:not(.default) {
   display: list-item;
 }
-}
+} */
 
 .examples__card {
   display: flex;
